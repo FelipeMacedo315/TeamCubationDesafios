@@ -1,6 +1,6 @@
 package org.example;
 
-import desafio.AlgoritmoPalpite;
+
 
 public class Main {
 
