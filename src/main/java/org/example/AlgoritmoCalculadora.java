@@ -29,6 +29,7 @@ public class AlgoritmoCalculadora {
                 }
 
             }
+            default -> System.out.println("Operação inválida");
 
         }
         System.out.println("Resultado: " + resultado);
