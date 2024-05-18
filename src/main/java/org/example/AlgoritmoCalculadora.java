@@ -16,23 +16,31 @@ public class AlgoritmoCalculadora {
 
         System.out.print("Escolha a operação: ");
         char operacao = scanner.next().charAt(0);
-        String convertCharToString = Character.toString(operacao);
-        switch (convertCharToString) {
-            case "+" -> resultado = num1 + num2;
-            case "-" -> resultado = num1 - num2;
-            case "*" -> resultado = num1 * num2;
+        String convertStringtoChar = Character.toString(operacao);
+        switch (convertStringtoChar) {
+            case "+" -> {
+                resultado = num1 + num2;
+                System.out.println("Resultado: " + resultado);
+            }
+            case "-" -> {
+                resultado = num1 - num2;
+                System.out.println("Resultado: " + resultado);
+            }
+            case "*" -> {
+                resultado = num1 * num2;
+                System.out.println("Resultado: " + resultado);
+            }
             case "/" -> {
                 if (num2 == 0) {
                     System.out.println("Não é permitido divisão por 0");
+
                 } else {
                     resultado = num1 / num2;
+                    System.out.println("Resultado: " + resultado);
                 }
-
             }
             default -> System.out.println("Operação inválida");
-
         }
-        System.out.println("Resultado: " + resultado);
 
 
     }
