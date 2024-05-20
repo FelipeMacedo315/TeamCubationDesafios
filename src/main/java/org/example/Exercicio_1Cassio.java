@@ -1,6 +1,6 @@
 package org.example;
 
-public class Exercicio_1 {
+public class Exercicio_1Cassio {
 
 
     public void exercicio_1() {

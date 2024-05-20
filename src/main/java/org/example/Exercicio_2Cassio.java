@@ -1,6 +1,6 @@
 package org.example;
 
-public class Exercicio_2 {
+public class Exercicio_2Cassio {
     double num = Math.round(Math.random() * 10) + 1;
 
     public void exercicio_2() {
